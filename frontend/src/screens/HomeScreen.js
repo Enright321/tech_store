@@ -10,7 +10,7 @@ const HomeScreen = () => {
         <h1>Top Categories</h1>
         <Row>
           {categories.map((category) => (
-            <Col key={category._id} sm={12} md={6} lg={4} xl={3}>
+            <Col key={category._id} sm={12} md={6} lg={4} xl={4}>
               <Categories category={category} />
             </Col>
           ))}
